@@ -61,7 +61,7 @@ Provisioned an Amazon ECR repository and configured it to store versioned images
 
 🔹 ECS Cluster + Fargate
 
-![ECS Cluster + Fargate](screenshots/ecs-cluster-fargate.png)
+![ECS Cluster + Fargate](screenshots/ecs-cluster.png)
 
 Defined:
 
@@ -97,7 +97,7 @@ The initial version of this workflow was provided by K21Academy as part of inter
 
 ## 🧠 Architecture Diagram
 
-![Architecture Diagram](screenshots/architecture-diagram.png)
+![Architecture Diagram](screenshots/project-architecture.png)
 
 ## 🔐 Security Considerations
 Used GitHub Secrets to store AWS credentials securely
