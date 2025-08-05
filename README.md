@@ -24,6 +24,8 @@ Amazon ECR for storing container images securely
 
 Amazon ECS with Fargate to run containers without managing servers
 
+The original application was forked from https://github.com/k21academyuk/AWS-ECS-Using-GitHub-Actions and adapted into my own deployment workflow.
+
 ## 🎯 Objectives & Outcomes
 ✅ Objective: Streamline the deployment process using CI/CD on AWS.
 
