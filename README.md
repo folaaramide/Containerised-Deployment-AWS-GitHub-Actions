@@ -95,9 +95,9 @@ The initial version of this workflow was provided by K21Academy as part of inter
 
 ![Web App URL](screenshots/verified-deployment.png)
 
-## 🧠 Architecture Diagram
+## 🧠 Project Architecture
 
-![Architecture Diagram](screenshots/project-architecture.png)
+![Architecture Diagram](project-architecture/architecture-diagram.png)
 
 ## 🔐 Security Considerations
 Used GitHub Secrets to store AWS credentials securely
