@@ -1,9 +1,9 @@
-# 🚀 Automated CI/CD Pipeline for Web Application Deployment on AWS ECS (Fargate) using GitHub Actions
+# Automated CI/CD Pipeline for Web Application Deployment on AWS ECS (Fargate) using GitHub Actions
 As a DevOps Engineer at K21Academy, I implemented an automated CI/CD pipeline for a web application that required frequent updates and fast delivery. The goal was to replace a slow, manual deployment process with a fully automated system that could ensure consistency, reduce risk, and improve release velocity.
 
 This project reflects my ability to design and implement cloud-native DevOps workflows aligned with modern software delivery practices and business goals.
 
-## 📌 Project Overview
+## Project Overview
 The web application was under active development, and deployments were becoming increasingly error-prone and time-consuming. We needed a solution that could:
 
 Eliminate manual steps
@@ -26,10 +26,10 @@ Amazon ECS with Fargate to run containers without managing servers
 
 The original application was forked from https://github.com/k21academyuk/AWS-ECS-Using-GitHub-Actions and adapted into my own deployment workflow.
 
-## 🎯 Objectives & Outcomes
-✅ Objective: Streamline the deployment process using CI/CD on AWS.
+## Objectives & Outcomes
+Objective: Streamline the deployment process using CI/CD on AWS.
 
-✅ Result: A production-ready, fully automated deployment pipeline triggered by any push to the main branch.
+Result: A production-ready, fully automated deployment pipeline triggered by any push to the main branch.
 
 Key results:
 
@@ -41,7 +41,7 @@ Enabled developers to ship updates more frequently and confidently
 
 All infrastructure defined and secured through automation and IAM best practices
 
-## 🧱 Technologies Used
+## Technologies Used
 Docker – Containerized the web app for portability and consistency
 
 Amazon ECR – Hosted versioned Docker images securely
@@ -52,11 +52,13 @@ GitHub Actions – Automated build, test, and deploy steps on code push
 
 AWS IAM – Secured access for GitHub to interact with AWS services
 
-## 🗂️ Key Components I Built
-🔹 Docker Image
+## Key Components I Built
+Docker Image
+
 Created a Dockerfile to package the web application and its dependencies, ensuring environment consistency from dev to production.
 
-🔹 ECR Repository
+-ECR Repository
+
 Provisioned an Amazon ECR repository and configured it to store versioned images of the application.
 
 ![Amazon ECR repsitory](screenshots/aws-ecr.png)
@@ -97,18 +99,18 @@ The initial version of this workflow was provided by K21Academy as part of inter
 
 ![Web App URL](screenshots/verified-deployment.png)
 
-## 🧠 Project Architecture
+## Project Architecture
 
 ![Architecture Diagram](project-architecture/architecture-diagram.png)
 
-## 🔐 Security Considerations
+## Security Considerations
 Used GitHub Secrets to store AWS credentials securely
 
 Applied least privilege IAM policies for ECR and ECS access
 
 Avoided hardcoding any secrets or identifiers in the workflow file
 
-## 💡 Learnings & Impact
+## Learnings & Impact
 This project helped reinforce my understanding of:
 
 End-to-end CI/CD pipeline design
@@ -129,7 +131,7 @@ Better developer experience
 
 Greater reliability and traceability in production releases
 
-## 🧹 Resource Cleanup
+## Resource Cleanup
 After testing and validating the deployment, I performed a cleanup to avoid unnecessary charges:
 
 Deleted the ECR repository
@@ -138,6 +140,6 @@ Removed the ECS service and cluster
 
 Terminated related networking and IAM resources
 
-## 📣 Final Thoughts
+## Final Thoughts
 This project reflects my ability to apply DevOps principles to solve practical challenges in a cloud environment. It also showcases how CI/CD can transform a team’s development workflow, enabling faster, safer, and scalable software delivery.
 
